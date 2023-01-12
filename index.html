@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="myDiv"></div>
+    <h1 id="cal">Calculator</h1>
+    <form action="">
+        <label>กรุณากรอกตัวเลข : <input type="text" id="num1"></label><br>
+        <label>กรุณากรอกตัวเลข : <input type="text" id="num2"></label><br>
+        <label>กรุณากรอกน้ำหนัก(kg) : <input type="text" id="weight"></label><br>
+        <label>กรุณากรอกส่วนสูง(cm) : <input type="text" id="height"></label><br>
+        <button type="button" id="calculator" onclick="myalert1()">+</button>
+        <button type="button" id="calculator2"onclick="myalert2()">-</button>
+        <button type="button" id="calculator3"onclick="myalert3()">*</button>
+        <button type="button" id="calculator4"onclick="myalert4()">/</button>
+        <button type="button" id="alertt" onclick="myalert()">alert</button>
+        <button type="button" id="bmi" onclick="myalertbb()">BMI</button>
+    </form>
+
+    <p id="result"></p>
+    <p id="result2"></p>
+    <p id="result3"></p>
+    <p id="result4"></p>
+    <p id="bmi"></p>
+</body>
+<script src="main.js"></script>
+</html>
